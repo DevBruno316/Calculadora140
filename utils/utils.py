@@ -15,3 +15,5 @@ def read_csv(arquivo_csv):
         print(f'Erro: Arquivo não encontrado: {arquivo_csv}')
     except Exception as fail:              # Qualquer erro não previsto
         print(f'Falha imprevista: {fail}') # Mensagem de erro que voltará ao sistema
+    
+
